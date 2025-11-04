@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HOME</title>
-    <link rel="stylesheet" href="./general.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - My Simple Website</title>
+  <link rel="stylesheet" href="./general.css">
 </head>
 <body>
-    <h1>HOME PAGE</h1>
-    <span><a href="./index.html">Welcome Home</a></span>
-    
+  <!-- HEADER AND NAVIGATION -->
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <div class="intro-section">
+      <h2>Introduction</h2>
+      <p>
+        This is a simple two-page website created to demonstrate my knowledge of 
+        <span class="highlight">HTML</span> and <span class="highlight">CSS</span>.
+      </p>
+    </div>
+
+    <div class="lists-section">
+      <h3>My Favorite Hobbies</h3>
+      <ul>
+        <li>Reading</li>
+        <li>Traveling</li>
+        <li>Photography</li>
+      </ul>
+
+      <h3>Steps to Build a Web Page</h3>
+      <ol>
+        <li>Create an HTML file</li>
+        <li>Link a CSS file</li>
+        <li>Design and test your layout</li>
+      </ol>
+    </div>
+
+    <!-- FORM SECTION -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" placeholder="Your message here..." required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Cavendish University Uganda | Designed by [Unguec Unguec Mawut]</p>
+  </footer>
 </body>
 </html>
+
+        
